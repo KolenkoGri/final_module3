@@ -8,7 +8,5 @@
 @import url(about/about.css);
 @import url(request/request.css);
 @import url(questions/questions.css);
-/*
-@import url(contacts/contacts.css); */
-
-
+@import url(contacts/contacts.css);
+@import url(../assets/css/style.css);

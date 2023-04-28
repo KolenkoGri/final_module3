@@ -1,0 +1,37 @@
+.other__title {
+    min-height: 18px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+.other__info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+.other__block {
+    min-height: 140px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 46px;
+}
+
+.other__block-one{
+    background-image: url(../../image/other-room1.png);
+}
+.other__block-two{
+    background-image: url(../../image/other-room2.png);
+}
+.other__block-three{
+    background-image: url(../../image/other-room3.png);
+}

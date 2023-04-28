@@ -1,13 +1,13 @@
 .questions__icon:hover {
-    color: var(--additional-color);
-    background-color: var(--default);
-    border: 1px solid var(--default);
+    color: var(--default);
+    background-color: var(--extra-color);
+    border: 1px solid var(--extra-color);
 }
 
 .questions__icon--purple:hover {
-    color: var(--default);
-    background-color: var(--extra-color);
-    border: 1px solid #FFFFFF;
+    color: var(--extra-color);
+    background-color: var(--default);
+    border: 1px solid var(--extra-color);
 }
 
 /* .questions__icon:active {
@@ -172,8 +172,9 @@
     }
 
     .questions__icon--purple {
-        color: var(--additional-color);
-        border: 1px solid var(--additional-color);
+        color: var(--default);
+        border: 1px solid var(--default);
+        background: var(--additional-color);
         border-radius: 50%;
         position: absolute;
         right: 70px;
@@ -181,7 +182,7 @@
         transition: 1s;
     }
 
-    .questions__item:nth-child(odd) {
+    .questions__item:nth-child(even) {
         color: white;
         background-color: var(--additional-color);
     }

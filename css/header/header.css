@@ -55,6 +55,18 @@
     color: white;
 }
 
+.header__item--menu:hover {
+    color: var(--color);
+}
+
+.header__item--menu:focus {
+    color: #840AA3;
+}
+
+.header__item--menu:active {
+    color: #840AA3;
+}
+
 .header__navigation {
     padding-top: 20px;
 }
